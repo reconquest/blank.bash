@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "$@" > request_dir
+
+echo "500 Internal Server Error"
