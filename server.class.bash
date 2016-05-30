@@ -84,3 +84,8 @@
         $this::stop
         rm -r $dir
     }
+
+    @method get-dir() {
+        @var dir
+        echo "$dir"
+    }
