@@ -1,7 +1,7 @@
 __blank_dir="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
 source $__blank_dir/vendor/github.com/reconquest/import.bash/import.bash
 
-import github.com/reconquest/classes.bash
+import:use github.com/reconquest/classes.bash
 
 
 # @description Create instance of blankd server.
