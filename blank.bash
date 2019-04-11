@@ -1,3 +1,8 @@
+if ! declare -f import:use &>/dev/null; then
+    echo "blank.bash must be imported using import.bash" >&2
+    exit 2
+fi
+
 __blank_dir="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
 source $__blank_dir/vendor/github.com/reconquest/import.bash/import.bash
 
