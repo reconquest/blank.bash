@@ -4,7 +4,6 @@ if ! declare -f import:use &>/dev/null; then
 fi
 
 __blank_dir="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
-source $__blank_dir/vendor/github.com/reconquest/import.bash/import.bash
 
 import:use github.com/reconquest/classes.bash
 
